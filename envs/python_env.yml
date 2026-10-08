@@ -1,0 +1,20 @@
+name: python_env
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.10        # used: 3.10.18
+  - numpy=1.26         # used: 1.26.4
+  - pandas=2.2         # used: 2.2.3
+  - matplotlib=3.9     # used: 3.9.2
+  - seaborn=0.13       # used: 0.13.2
+  - scipy=1.15         # used: 1.15.1
+  - openpyxl=3.1       # used: 3.1.5
+  - pyyaml=6.0         # used: 6.0.2
+  - ipykernel=6.29     # used: 6.29.5
+  - samtools=1.17      # used: 1.17
+  - pip
+  - pip:
+      - pysam==0.22.1
+      - statannotations==0.7.2

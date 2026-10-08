@@ -1,0 +1,6 @@
+data_dir: /path/to/downloaded/data/
+wgs_bam_dir: /path/to/WGS_bams/
+smfish_nd2_dir:
+  exp1: /path/to/smFISH_experiment1_images/
+  exp2: /path/to/smFISH_experiment2_images/
+out_dir: /path/to/output/
